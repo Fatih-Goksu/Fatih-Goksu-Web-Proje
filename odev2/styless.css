@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;   
+}
+header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#logo {
+    max-width: 100px; 
+    height: auto;
+    border-radius: 50%;
+}
+
+.restaurant-section img {
+    width: 500px !important;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10;
+    margin: 10;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+#h1-ürün{
+    color: #c70000;
+}
+#h2-ürün{
+    color: #000000;
+    font-family: 'Teko', sans-serif;
+}
+
+#specialImage {
+    max-width: 140%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+.main-content {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.main-content .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px; /* Örnek bir değer, isteğinize göre ayarlayabilirsiniz */
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    width: 40%; /* Resim ve başlığın yüzde olarak toplamı 100 olmalı, arada bir boşluk olmasını sağlamak için bir miktar azaltıyoruz */
+}
+
+@media only screen and (max-width: 768px) {
+    .content-wrapper {
+        width: 100%; /* Küçük ekranlarda tam genişlik kullan */
+        margin-bottom: 20px; /* Küçük ekranlarda biraz boşluk bırak */
+    }
+}
+
+
+
+
+.restaurant-section {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    
+    
+}
+
+.restaurant-section .container2 {
+    
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Örnek bir değer, isteğinize göre ayarlayabilirsiniz */
+    margin: 0 auto;
+}
+
+.restaurant-section .content-wrapper {
+    width: 100%; /* Resim ve başlığın yüzde olarak toplamı 100 olmalı, arada bir boşluk olmasını sağlamak için bir miktar azaltıyoruz */
+    background-size: cover; /* Resmi container'a sığdır */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat; /* Tekrarlamayı engelle */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+       
+}
+
+
+
+.restaurant-section img {
+    width: 1200px;
+    height: auto;
+    border-radius: 20px; /* İsteğe bağlı: Resimin kenarlarını yuvarlatma */
+}
+
+@media only screen and (max-width: 768px) {
+    .restaurant-section .content-wrapper {
+        width: 100%; /* Küçük ekranlarda tam genişlik kullan */
+        margin-bottom: 20px; /* Küçük ekranlarda biraz boşluk bırak */
+    }
+}
+
+
+
+.restaurants-section {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    
+}
+
+.restaurants-section .container {
+    display: flex;
+    justify-content: space-between; /* Elemanları aralarında eşit boşluk bırakacak şekilde hizala */
+    max-width: 1200px; /* Örnek bir değer, isteğinize göre ayarlayabilirsiniz */
+    margin: 0 auto;
+}
+
+.restaurants-section .restaurant {
+    width: 24%; /* Her restoranın genişliği, toplam 90% eder ki aralarında boşluk bırakabilsin */
+}
+
+.restaurants-section img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Yakınlaştırma efekti için geçiş ekleme */
+}
+
+@media only screen and (max-width: 768px) {
+    .restaurants-section .container {
+        flex-direction: column; /* Küçük ekranlarda elemanları dikey olarak sırala */
+    }
+
+    .restaurants-section .restaurant {
+        width: 100%; /* Küçük ekranlarda tam genişlik kullan */
+        margin-bottom: 20px; /* Her restoran arasına boşluk ekleyerek düzenle */
+    }
+}
+
+
+
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
